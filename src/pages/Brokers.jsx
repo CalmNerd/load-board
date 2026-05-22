@@ -25,7 +25,7 @@ export const PostLoads = () => {
                 pageKeywords={'post loads, connect with carriers, find trucks, freight posting, load board, shipping logistics, trucking companies, available trucks, post freight, load matching'}
                 canonicalURL={'brokers/postloads'}
             />
-            <Layout source={'https://example.com/loads/entry'} />
+            <Layout source={'https://www.directfreight.com/gsquared-home/loads/entry'} />
         </>
     )
 }
@@ -53,7 +53,7 @@ export const ViewMyLoads = () => {
                 pageKeywords={'view my loads, manage loads, freight management, load tracking, shipping operations, update load details, manage freight, load board, trucking companies, shipping management'}
                 canonicalURL={'brokers/viewmyloads'}
             />
-            <Layout source={'https://example.com/user/loads#'} />
+            <Layout source={'https://www.directfreight.com/gsquared-home/user/loads#'} />
         </>
     )
 }
