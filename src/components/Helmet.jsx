@@ -7,7 +7,7 @@ export const HelmetCP = ({ pageTitle, pageDescription, pageKeywords, canonicalUR
             <title>{pageTitle}</title>
             <meta name="description" content={pageDescription} />
             <meta name="keywords" content={pageKeywords} />
-            <link rel="canonical" href={`https://getloadsnow.com/${canonicalURL}`} />
+            <link rel="canonical" href={`https://example.com/${canonicalURL}`} />
         </Helmet>
     )
 };

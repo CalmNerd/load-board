@@ -16,7 +16,7 @@ export const Logout = () => {
         }
     }, []);
 
-    const source = 'https://www.directfreight.com/gsquared-home/user/logout';
+    const source = 'https://example.com/user/logout';
 
     return (
         <>

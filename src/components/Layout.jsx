@@ -19,7 +19,7 @@ export const Layout = ({ source }) => {
                 <path d="M0 100 C 20 0 50 0 100 100 Z" className='main-fill' />
             </svg>
             <Container fluid className='bg-main-brand mb-2 banner mx-0'>
-                <Link to='https://gsquaredfunding.com/' target="_blank" rel="noopener noreferrer">
+                <Link to='https://example.com/' target="_blank" rel="noopener noreferrer">
                     <Image src={banner} className="img-fluid" alt="Banner" />
                 </Link>
             </Container>

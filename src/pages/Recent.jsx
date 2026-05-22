@@ -2,7 +2,7 @@ import { HelmetCP } from '../components/Helmet.jsx';
 import { Layout } from '../components/Layout.jsx';
 
 export const Recent = () => {
-    const source = 'https://www.directfreight.com/gsquared-home/user/searches';
+    const source = 'https://example.com/user/searches';
 
     return (
         <>

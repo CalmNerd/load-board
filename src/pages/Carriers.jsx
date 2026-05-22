@@ -11,7 +11,7 @@ export const LoadMap = () => {
                 pageKeywords={'load map, interactive map, trucking load board, trucking companies, find loads, post loads, get loads, free load board, book loads'}
                 canonicalURL={'carriers/loadmap'}
             />
-            <Layout source={'https://www.directfreight.com/gsquared-home/loads/map'} />
+            <Layout source={'https://example.com/loads/map'} />
         </>
     )
 }
@@ -25,7 +25,7 @@ export const PostTrucks = () => {
                 pageKeywords={'load board, trucking load board, trucking companies, find loads, post loads, get loads, free load board, book loads, post trucks, connect with shippers'}
                 canonicalURL={'carriers/posttrucks'}
             />
-            <Layout source={'https://www.directfreight.com/gsquared-home/trucks/entry'} />
+            <Layout source={'https://example.com/trucks/entry'} />
         </>
     )
 }
@@ -39,7 +39,7 @@ export const ViewMyTrucks = () => {
                 pageKeywords={'view my trucks, load board, trucking load board, trucking companies, find loads, post loads, get loads, free load board, book loads, post trucks, connect with shippers'}
                 canonicalURL={'carriers/viewmytrucks'}
             />
-            <Layout source={'https://www.directfreight.com/gsquared-home/user/trucks'} />
+            <Layout source={'https://example.com/user/trucks'} />
         </>
     )
 }

@@ -9,7 +9,7 @@
 </p>
 
 <p align='center'>
-  <a href='https://getloadsnow.com/'><strong> Get Loads Now </strong></a>
+  <a href='https://example.com/'><strong> Get Loads Now </strong></a>
   <br>
 </p>
 
@@ -105,7 +105,7 @@ Launch the application by entering the command below on your terminal:
 npm start
 ```
 
-Or access it through our oficial website [Get Loads Now](https://getloadsnow.com/)
+Or access it through our oficial website [Get Loads Now](https://example.com/)
 
 ## Questions
 
@@ -115,7 +115,7 @@ For questions and support feel free to contact us via:
 
 <a href='mailto:larigens@gmail.com'>📧 Email Me </a>
 <br>
-<a href='mailto:larigens@gsquaredfunding.com'>📧 Email Company </a>
+<a href='mailto:larigens@example.com'>📧 Email Company </a>
 
 ## Contributing
 

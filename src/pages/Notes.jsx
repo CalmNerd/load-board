@@ -2,7 +2,7 @@ import { HelmetCP } from '../components/Helmet.jsx';
 import { Layout } from '../components/Layout.jsx';
 
 export const Notes = () => {
-    const source = 'https://www.directfreight.com/gsquared-home/user/notes';
+    const source = 'https://example.com/user/notes';
 
     return (
         <>

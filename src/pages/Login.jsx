@@ -2,7 +2,7 @@ import { HelmetCP } from '../components/Helmet.jsx';
 import { Layout } from '../components/Layout.jsx';
 
 export const Login = () => {
-    const source = 'https://www.directfreight.com/gsquared-home/user/login';
+    const source = 'https://example.com/user/login';
     localStorage.setItem('isLoggedIn', 'true');
 
     return (

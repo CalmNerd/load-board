@@ -14,7 +14,7 @@ export const Header = ({ children }) => {
     <header>
       <Row className='bg-main m-auto'>
         <Col md={12} className='d-flex align-items-center justify-content-end'>
-          <Link to='https://gsquaredfunding.com/' className='light-shades light-accent-hv p-2 me-2 fs-18 text poppins-regular border-color'>
+          <Link to='https://example.com/' className='light-shades light-accent-hv p-2 me-2 fs-18 text poppins-regular border-color'>
             Freight Factoring
           </Link>
           <Navbar expand='lg' className='p-2' data-bs-theme='dark'>

@@ -8,12 +8,12 @@ export const SubHeader = () => {
         <Container fluid className='text-center my-4'>
         <Carousel>
             <Carousel.Item>
-                <Link to='https://gsquaredfunding.com/' target="_blank" rel="noopener noreferrer">
+                <Link to='https://example.com/' target="_blank" rel="noopener noreferrer">
                     <Image src={ad} alt="gsf ad" className='img-fluid radius-10' />
                 </Link>
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='https://go.atob.com/g-squared-prepaid' target="_blank" rel="noopener noreferrer">
+                <Link to='https://example.com/' target="_blank" rel="noopener noreferrer">
                     <Image src={fuelcard} alt="fuel card ad" className='img-fluid radius-10' />
                 </Link>
             </Carousel.Item>

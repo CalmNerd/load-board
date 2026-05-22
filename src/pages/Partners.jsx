@@ -12,7 +12,7 @@ export const Partners = () => {
         {
             id: 1,
             name: 'G Squared Funding, LLC',
-            href: 'https://gsquaredfunding.com/',
+            href: 'https://example.com/',
             logo: gsfLogo,
             subtitle: 'Looking for immediate cash solutions?',
             description: 'G Squared Funding, LLC is a factoring company dedicated to delivering not just financial support, but an exceptional customer experience. Get the funds you need today with reliability and personalized service you can count on.'
@@ -20,7 +20,7 @@ export const Partners = () => {
         {
             id: 2,
             name: 'American Fleet Insurance',
-            href: 'https://gsquaredquotes.com/',
+            href: 'https://example.com/',
             logo: aficwLogo,
             subtitle: 'Need down payment assistance?',
             description: 'American Fleet Insurance, An Agent of Cover Whale, is an independent agency specializing in Trucking & Transportation. Our goal is to help protect your business and allow you to focus on the road ahead.'
@@ -28,7 +28,7 @@ export const Partners = () => {
         {
             id: 3,
             name: 'Factors Network',
-            href: 'https://gsquaredfunding.com/index.php/resources/credit-services',
+            href: 'https://example.com/index.php/resources/credit-services',
             logo: factorsNetLogo,
             subtitle: 'Need to find reliable brokerage companies?',
             description: 'Credit check service, designed to safeguard your profitability by preventing bookings with unreliable brokerage companies.'

@@ -15,8 +15,8 @@ export const NavBar = () => {
         {
             id: 2,
             name: 'Free Fuel Card',
-            href: 'https://go.atob.com/g-squared-prepaid',
-            current: location.pathname === 'https://go.atob.com/g-squared-prepaid'
+            href: 'https://example.com/',
+            current: location.pathname === 'https://example.com/'
         },
         {
             id: 3,
