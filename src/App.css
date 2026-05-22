@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Xanh+Mono:ital@0;1&display=swap');
+
+:root {
+  --dark-shades: #0a1128;
+  --dark-accent: #14213d;
+  /* --main-brand: #034078; */
+  --main-brand: #295f95;
+  /* --light-accent: #67B6EF; */
+  --light-accent: #5ea7db;
+  --light-shades: #fefcfb;
+  --gradient-dark: linear-gradient(45deg, var(--dark-accent), var(--dark-shades), var(--dark-accent), var(--dark-shades));
+  --gradient-bg: linear-gradient(45deg, var(--dark-shades), var(--main-brand), var(--dark-accent));
+  --gradient: -webkit-linear-gradient(30deg, var(--light-accent), var(--light-shades), var(--light-accent));
+  --gradient-light: -webkit-linear-gradient(30deg, var(--light-shades), var(--light-accent), var(--light-shades));
+  --body: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a,
+.text-none {
+  text-decoration: none !important;
+}
+
+textarea {
+  resize: none !important;
+  white-space: pre-wrap !important;
+  /* Any line breaks or multiple spaces that were entered in the textarea will be preserved and displayed */
+}
+
+.white-img {
+  filter: brightness(0) invert(1);
+}
+
+.white-img-hv:hover {
+  filter: brightness(0) invert(1);
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.w-80 {
+  width: 80px !important;
+  height: auto;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.logo-heading {
+  background: var(--gradient) !important;
+  /* Need to set that is a text you are removing the background / color or the gradient won't work */
+  -webkit-background-clip: text !important;
+  background-clip: none !important;
+  /* Text-fill needs to be transparent to show the gradient */
+  -webkit-text-fill-color: transparent !important;
+  font-size: 24px;
+}
+
+/* Colors */
+.dark-shades {
+  color: var(--dark-shades) !important;
+}
+
+.dark-accent {
+  color: var(--dark-accent) !important;
+}
+
+.main-brand {
+  color: var(--main-brand) !important;
+}
+
+.main-brand-hv:hover {
+  color: var(--main-brand) !important;
+}
+
+.light-accent {
+  color: var(--light-accent) !important;
+}
+
+.light-accent-hv:hover {
+  color: #c1e1f8 !important;
+}
+
+.active {
+  color: #afdbfa !important;
+}
+
+.light-shades {
+  color: var(--light-shades) !important;
+}
+
+footer,
+header {
+  background-color: var(--dark-accent);
+}
+
+.glassmorphism {
+  box-shadow: 0 8px 25px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glassmorphism,
+#btn {
+  background: rgba(162, 179, 219, 0.15);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+}
+
+/* Button Style */
+.signup-btn {
+  border-radius: 20px;
+  background: var(--light-accent);
+  padding: 8px 20px;
+  color: var(--light-shades);
+}
+
+.signup-btn:hover {
+  background: var(--main-brand);
+}
+
+#btn {
+  box-shadow: 0 5px 12px 0 rgba(31, 38, 135, 0.37);
+}
+
+#btn:hover {
+  background-color: var(--dark-accent);
+  box-shadow: 0 10px 24px 0 rgba(35, 42, 141, 0.37);
+  border: none;
+}
+
+#btn .card-title {
+  color: var(--main-brand);
+  font-size: 24px;
+}
+
+#btn .card-subtitle {
+  font-size: 18px;
+}
+
+#btn:hover .card-title {
+  color: var(--light-accent);
+  font-size: 26px;
+}
+
+/* Dropdown */
+.custom-dropdown-none {
+  color: none;
+  display: none;
+}
+
+.custom-dropdown {
+  color: var(--light-shades);
+}
+
+.custom-dropdown:hover,
+.custom-dropdown:focus {
+  color: #afdbfa !important;
+  ;
+}
+
+.custom-dropdown-item {
+  color: var(--light-shades);
+}
+
+#btn:hover .card-body {
+  color: var(--light-shades);
+}
+
+.bg-main {
+  background-color: var(--main-brand);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 1417px) {
+  .logo-heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1361px) {
+  .logo-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1301px) {
+  .logo-heading {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 1242px) {
+  .logo-heading {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .logo-heading {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+
+  .main-fill {
+    fill: none !important;
+    stroke: none !important;
+  }
+}
+
+.secondary-fill {
+  fill: #eaeaeb;
+  stroke: #eaeaeb;
+}
+
+.dark-accent-fill {
+  fill: var(--dark-accent);
+  stroke: var(--dark-accent);
+}
+
+.main-fill {
+  fill: var(--main-brand);
+  stroke: var(--main-brand);
+}
+
+.bg-dark-accent {
+  background: var(--dark-accent);
+}
+
+.bg-main-brand {
+  background: var(--main-brand);
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.radius-50 {
+  border-radius: 50px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.border-color {
+  border-color: var(--light-accent);
+}
+
+/* Ensure the navbar collapse pushes content down */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-collapse .nav {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    text-align: left;
+  }
+}
+
+.icon-30 {
+  width: 30px;
+  height: auto;
+}
+
+/* Customizing the carousel indicators */
+.carousel-indicators {
+  position: static !important; /* This removes the absolute positioning */
+  margin-top: 10px !important; /* Adds space above the indicators */
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.carousel-indicators li {
+  background-color: #000 !important; /* Custom dot color */
+  width: 10px !important; /* Custom dot width */
+  height: 10px !important; /* Custom dot height */
+  border-radius: 50% !important; /* Make dots round */
+  margin: 0 5px !important; /* Add space between dots */
+}
+
+.carousel-indicators .active {
+  background-color: #fff !important; /* Color for active dot */
+}
