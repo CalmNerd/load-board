@@ -11,7 +11,7 @@ export const FindTrucks = () => {
                 pageKeywords={'find trucks, trucking load board, shippers, freight brokers, locate trucks, post trucks, connect with carriers, free load board, trucking companies, book trucks'}
                 canonicalURL={'brokers/findtrucks'}
             />
-            <Layout source={'https://example.com/boards/find/trucks'} />
+            <Layout source={'https://www.directfreight.com/gsquared-home/boards/find/trucks'} />
         </>
     )
 }
@@ -39,7 +39,7 @@ export const TruckMap = () => {
                 pageKeywords={'truck map, real-time truck tracking, truck location, live truck map, interactive truck map, logistics tracking, truck routes, tracking tool, truck logistics, optimize logistics'}
                 canonicalURL={'brokers/truckmap'}
             />
-            <Layout source={'https://example.com/trucks/map'} />
+            <Layout source={'https://www.directfreight.com/gsquared-home/trucks/map'} />
         </>
     )
 }

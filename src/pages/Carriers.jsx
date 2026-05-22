@@ -11,7 +11,7 @@ export const LoadMap = () => {
                 pageKeywords={'load map, interactive map, trucking load board, trucking companies, find loads, post loads, get loads, free load board, book loads'}
                 canonicalURL={'carriers/loadmap'}
             />
-            <Layout source={'https://example.com/loads/map'} />
+            <Layout source={'https://www.directfreight.com/gsquared-home/loads/map'} />
         </>
     )
 }
